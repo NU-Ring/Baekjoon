@@ -28,7 +28,7 @@ public class Main {
 		int ans=0;
 		int weight=0;
 		
-		while(!bridge.isEmpty())
+		while(!q.isEmpty())
 		{
 			ans++; // 1초 경과
 			weight-=bridge.poll(); //젤트럭을 한칸씩 잡아 당김
@@ -46,7 +46,7 @@ public class Main {
 				}
 			}
 		}
-		System.out.println(ans);
+		System.out.println(ans+W);
 	}
 
 }
